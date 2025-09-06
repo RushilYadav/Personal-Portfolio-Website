@@ -12,7 +12,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section');
-    const scrollPosition = window.scrollY + 100;
+    const scrollPosition = window.scrollY + window.innerHeight / 2;
 
     sections.forEach(section => {
         const top = section.offsetTop;
