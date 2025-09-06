@@ -277,6 +277,50 @@ body {
     font-weight: 500;
 }
 
+/* Education Section */
+.education-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.education-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+}
+
+.education-card h3 {
+    color: var(--dark-gray);
+    margin-bottom: 0.5rem;
+}
+
+.degree {
+    color: var(--dark-gray);
+    margin-bottom: 0.5rem;
+}
+
+.grade {
+    color: var(--primary-blue);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.details {
+    color: var(--text-gray);
+    line-height: 1.6;
+}
+
+
+
+
+
 
 
 
