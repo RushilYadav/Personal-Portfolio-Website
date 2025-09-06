@@ -329,7 +329,43 @@ body {
     margin-bottom: 0.3rem;
 }
 
+/* Projects Section */
+.projects-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
 
+.project-card-link,
+.project-card-link:link,
+.project-card-link:visited,
+.project-card-link:hover,
+.project-card-link:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card-link:hover .project-card {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3,
+.project-card p,
+.project-card .tech-stack,
+.project-card .tech-tag {
+    text-decoration: none;
+    color: var(--dark-gray);
+}
 
 
 
