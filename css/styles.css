@@ -434,3 +434,41 @@ body {
     stroke-width: 2;
     color: inherit;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content .title {
+        font-size: 1.5rem;
+    }
+
+    .experience-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
