@@ -317,6 +317,18 @@ body {
     line-height: 1.6;
 }
 
+.modules-list {
+    list-style: disc;
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+    color: var(--text-gray);
+    line-height: 1.6;
+}
+
+.modules-list li {
+    margin-bottom: 0.3rem;
+}
+
 
 
 
